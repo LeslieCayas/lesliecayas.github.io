@@ -1,7 +1,7 @@
 import { React } from "react"
 import '../css/Skills.scss'
 import {
-  SiPostgresql, SiReact, SiRuby, SiSass, SiJest, SiPostman, SiGithub
+  SiPostgresql, SiReact, SiRuby, SiSass, SiJest, SiPostman, SiGithub, SiKotlin, SiSwift, SiJava, SiTypescript
 } from "react-icons/si";
 
 function Skills() {
@@ -36,6 +36,10 @@ function Skills() {
           <h1>Wish List</h1>
           <p>As I continue to grow as a Software Engineer, I plan on adding these technologies to my skillset!</p>
           <div id="wishlistTech">
+          <SiKotlin />
+          <SiSwift />
+          <SiJava />
+          <SiTypescript />
 
           </div>
         </div>

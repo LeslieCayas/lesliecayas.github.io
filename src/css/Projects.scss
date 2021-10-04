@@ -23,7 +23,14 @@
   .projectImage {
     justify-self: start;
   }
-
+  a {
+    color:white;
+    transition: 0.2s;
+  }
+  
+  a:hover {
+    color: #fdb5af;
+  }
 }
 
 #one.projectInfo {
