@@ -2,15 +2,16 @@
 
 .project-card {
   display:grid;
-  grid-template-columns: 1fr max-content;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 50%;
   margin: 0 auto;
   padding-bottom: 2%;
   img {
-    max-width: 400px;
+    max-width: 100%;
     height:100%;
     justify-self: start;
     object-fit: fill;
+    overflow: hidden;
   }
   span {
     font-size: 2em;
@@ -42,7 +43,7 @@
 }
 
 .projectInfo {
-  padding: 0 70px;
+  padding: 2% 70px;
   font-family: 'Open Sans', sans-serif;
   h1 {
     font-family: 'Playfair Display', serif;

@@ -17,25 +17,33 @@ function App() {
           <LandingPage />
         </Element>
       </div>
+      <div id="components">
+        <div id="about">
+          <Element name="about">
+            <AboutMe />
+          </Element>
+        </div>
 
-      <div id="about">
-        <Element name="about">
-          <AboutMe />
-        </Element>
+        <div id="projects">
+          <Element name="projects">
+            <Projects />
+          </Element>
+        </div>
+
+        <div id="skills">
+          <Element name="skills">
+            <Skills />
+          </Element>
+        </div>
+
+        <div id="contact">
+          <Element name="contact">
+            <Contact />
+          </Element>
+        </div>
       </div>
 
 
-      <Element name="projects">
-        <Projects />
-      </Element>
-
-      <Element name="skills">
-        <Skills />
-      </Element>
-
-      <Element name="contact">
-        <Contact />
-      </Element>
     </div>
   );
 }

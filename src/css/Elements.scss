@@ -3,12 +3,15 @@
 #about, #contact, #landingPage, #skills {
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  padding-bottom: 5%;
+}
+#landingPage {
   padding-top: 5%;
 }
+#components {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
 
-.App {
-  display: grid;
 }
 
 #landingPage, #projects, #contact {
@@ -16,7 +19,29 @@
 }
 
 #projects {
-  height: 150vh;
+  height: 100%;
   padding-bottom: 5%;
   padding-top: 5%;
+}
+
+button {
+  background-color: #F2B279;
+  border:none;
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+  transition:0.3s
+}
+
+button:hover {
+  box-shadow: 5px 5px #D99B84;
+}
+
+a {
+  color:white;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #fdb5af;
 }

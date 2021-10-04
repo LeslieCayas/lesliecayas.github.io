@@ -1,6 +1,7 @@
 import { React } from "react"
 import '../css/AboutMe.scss'
 import aboutImg from '../img/about_image.svg'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function AboutMe() {
   return (
@@ -15,6 +16,15 @@ function AboutMe() {
           <br /><br />
           With the skills that I have and my solid foundation in current tools and tech, I aim to pursue my goal of being the one of the most impactful members of any team I find myself in! I hope that as I build upon my current skillset as a Software Engineer, that I can find opportunities to lead various projects for my team.</p>
       </div>
+      <Link
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={-200}
+        duration={500}>
+          <button>Next</button>
+      </Link>
     </div>
   )
 }
