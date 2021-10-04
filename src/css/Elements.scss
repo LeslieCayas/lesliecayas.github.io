@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-#about, #contact, #landingPage, #skills {
+#about, #landingPage, #skills {
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
@@ -11,13 +11,19 @@
   display: flex;
   flex-direction: column;
   flex-flow: column wrap;
-
 }
 
 #landingPage, #projects, #contact {
   background: #f8f1e8;
 }
 
+#about, #skills {
+  background: #fffaf3;
+}
+#contact {
+  height: 70vh;
+  padding-top: 5%;
+}
 #projects {
   height: 100%;
   padding-bottom: 5%;

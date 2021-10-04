@@ -3,6 +3,10 @@ import '../css/Skills.scss'
 import {
   SiPostgresql, SiReact, SiRuby, SiSass, SiJest, SiPostman, SiGithub, SiKotlin, SiSwift, SiJava, SiTypescript
 } from "react-icons/si";
+import express from '../img/express.svg'
+import nodedotjs from '../img/nodedotjs.svg'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 function Skills() {
   return (
@@ -21,6 +25,8 @@ function Skills() {
 
           <h2>Back-End</h2>
           <p>
+            <img src={express} alt=""/>
+            <img src={nodedotjs} alt=""/>
             <SiRuby />
           </p>
 
@@ -44,6 +50,15 @@ function Skills() {
           </div>
         </div>
       </div>
+      <Link
+        activeClass="active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-200}
+        duration={500}>
+          <button>Next</button>
+      </Link>
     </div>
   )
 }

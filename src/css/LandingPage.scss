@@ -19,12 +19,19 @@
         text-transform: uppercase;
         font-size: 5em;
         margin-bottom: 0;
+        color: #565E50;
+        text-shadow: 2px 2px #D99B84;
+
       }
       h2 {
         font-family: 'Open Sans', sans-serif;
         text-align: left;
         font-size: 2em;
         line-height: 1.5;
+        color: #353d2f;
+        span {
+          text-shadow: 2px 2px #D99B84;
+        }
       }
   }
 

@@ -1,0 +1,34 @@
+#contact {
+  h1 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #82896A;
+  }
+  h2 {
+    color: #67a19e;
+    font-family: 'Playfair Display', serif;
+
+  }
+  .contactCards {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    width: 70%;
+    margin: 0 auto;
+    gap: 5%;
+    div {
+      padding: 10% 5%;
+      box-shadow: 5px 5px #D99B84;
+      background: #fffdfd;
+      border-radius: 10px;
+      a {
+        font-family: 'Open Sans', sans-serif;
+        color: #82896A;
+      }
+      svg {
+        color: #565E50;
+      }
+    }
+  }
+}

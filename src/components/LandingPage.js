@@ -16,7 +16,7 @@ function LandingPage() {
         <h2>
         Scientist &
           <br />
-        Software Engineer
+        <span>Software Engineer</span>
         </h2>
         <Link
         activeClass="active"
