@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#about, #contact, #landingPage, #skills {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.App {
+  display: grid;
+}
+
+#landingPage, #projects, #contact {
+  background: #f8f1e8;
+}
+
+#projects {
+  height: 150vh;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
